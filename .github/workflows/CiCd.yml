@@ -17,4 +17,4 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build and Test with Maven
-      run: mvn compile
+      run: maven compile -f ./githubactions_project/pom.xml
